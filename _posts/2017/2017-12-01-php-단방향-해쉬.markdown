@@ -1,0 +1,26 @@
+---
+layout: "post"
+title: "PHP 단방향 해쉬"
+date: "2017-12-01 21:57"
+categories: [php]
+---
+
+#### 1. PHP 5.5 버전 이상
+
+{% highlight php %}
+
+/* hash */
+$hash = password_hash($password, PASSWORD_BCRYPT);
+
+/* hash vertify */
+if (password_verify($password, $hash)) {
+    /* Valid */
+} else {
+    /* Invalid */
+}
+
+{% endhighlight %}
+
+#### 2. PHP 5.5 버전 이하
+
+**외부라이브러리:** [https://github.com/ircmaxell/password_compat](https://github.com/ircmaxell/password_compat)
