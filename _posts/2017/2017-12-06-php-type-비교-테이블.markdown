@@ -15,16 +15,16 @@ PHP의 중요한 특징으로 반드시 유의해야할 부분으로 이부분�
    <thead>
     <tr>
      <th>Expression</th>
-     <th><span class="function"><a href="function.gettype.php" class="function">gettype()</span></th>
-     <th><span class="function"><a href="function.empty.php" class="function">empty()</span></th>
-     <th><span class="function"><a href="function.is-null.php" class="function">is_null()</span></th>
-     <th><span class="function"><a href="function.isset.php" class="function">isset()</span></th>
-     <th><span ><a href="language.types.boolean.php" >boolean</span> : <em>if($x)</em></th>
+     <th><span >gettype()</span></th>
+     <th><span >empty()</span></th>
+     <th><span >is_null()</span></th>
+     <th><span >isset()</span></th>
+     <th><span >boolean</span> : <em>if($x)</em></th>
     </tr>
 
    </thead>
 
-   <tbody class="tbody">
+   <tbody>
     <tr>
      <td><em>$x = &quot;&quot;;</em></td>
      <td><span >string</span></td>
