@@ -8,8 +8,29 @@ categories: [php]
 PHP의 중요한 특징으로 반드시 유의해야할 부분으로 이부분에서 실제 많은 오류가 나타납니다.
 다음 표는 느슨한 비교와 엄격한 비교를 위해 PHP 유형 및 비교 연산자의 동작을 보여줍니다.
 
+<style type="text/css">
+table.datatable { clear:Both; width:800px; empty-cells:show; table-layout:fixed; border-collapse:collapse;
+                        font-family:dotum,verdana; font-size:14px; color:#323232; }
+table.datatable tbody td ul.bul01 { list-style-type:none; list-style-position:outside; margin:0; padding:0; }
+table.datatable tbody td ul.bul01 li { margin:0; padding:3px 0 3px 7px; background:url('/images/common/bul/bulDotBlue.gif')
+                                                  no-repeat left 9px; }
+table.datatable thead th { padding:7px 10px; border-right:1px solid #bdbdbd; border-bottom:1px solid #bdbdbd;
+                                    border-top:3px solid #779fe8; background-color:#e0e0e0; color:#333333; }
+table.datatable thead th.row2 { border-bottom:1px solid #bdbdbd; }
+table.datatable tbody th { padding:7px 10px; background-color:#f1f1f1; color:#666666; font-weight:normal;
+                                    border-bottom:1px solid #d0d0d0; border-right:1px solid #d0d0d0; }
+table.datatable tbody th.bgStyle02 { padding:7px 10px; background-color:#f1f1f1; color:#666666; font-weight:normal;
+                                                  border-right:1px solid #d0d0d0; border-bottom:1px solid #d0d0d0; }
+table.datatable tbody td { padding:3px 3px; background-color:#fff; border-right:1px solid #d0d0d0;
+                                    border-bottom:1px solid #d0d0d0; }
+table.datatable tfoot td { padding:5px 10px; background-color:#fff; border-right:1px solid #d0d0d0;
+                                  border-bottom:1px solid #d0d0d0; }
+table.datatable tfoot th { padding:0; }
+table.datatable tbody td.bg01{ background-color:#f1f1f1; }
+</style>
+
 <p>
- <table>
+ <table class="datatable">
   <caption><strong>Comparisons of <var class="varname"><var class="varname">$x</var></var> with PHP functions</strong></caption>
 
    <thead>
