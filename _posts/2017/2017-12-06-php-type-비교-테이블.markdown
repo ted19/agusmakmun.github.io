@@ -15,11 +15,11 @@ PHP의 중요한 특징으로 반드시 유의해야할 부분으로 이부분�
    <thead>
     <tr>
      <th>Expression</th>
-     <th><span class="function"><a href="function.gettype.php" class="function">gettype()</a></span></th>
-     <th><span class="function"><a href="function.empty.php" class="function">empty()</a></span></th>
-     <th><span class="function"><a href="function.is-null.php" class="function">is_null()</a></span></th>
-     <th><span class="function"><a href="function.isset.php" class="function">isset()</a></span></th>
-     <th><span class="type"><a href="language.types.boolean.php" class="type boolean">boolean</a></span> : <em>if($x)</em></th>
+     <th><span class="function"><a href="function.gettype.php" class="function">gettype()</span></th>
+     <th><span class="function"><a href="function.empty.php" class="function">empty()</span></th>
+     <th><span class="function"><a href="function.is-null.php" class="function">is_null()</span></th>
+     <th><span class="function"><a href="function.isset.php" class="function">isset()</span></th>
+     <th><span ><a href="language.types.boolean.php" >boolean</span> : <em>if($x)</em></th>
     </tr>
 
    </thead>
@@ -27,7 +27,7 @@ PHP의 중요한 특징으로 반드시 유의해야할 부분으로 이부분�
    <tbody class="tbody">
     <tr>
      <td><em>$x = &quot;&quot;;</em></td>
-     <td><span class="type"><a href="language.types.string.php" class="type string">string</a></span></td>
+     <td><span >string</span></td>
      <td><strong><code>TRUE</code></strong></td>
      <td><strong><code>FALSE</code></strong></td>
      <td><strong><code>TRUE</code></strong></td>
@@ -36,7 +36,7 @@ PHP의 중요한 특징으로 반드시 유의해야할 부분으로 이부분�
 
     <tr>
      <td><em>$x = null;</em></td>
-     <td><span class="type"><a href="language.types.null.php" class="type NULL">NULL</a></span></td>
+     <td><span >NULL</span></td>
      <td><strong><code>TRUE</code></strong></td>
      <td><strong><code>TRUE</code></strong></td>
      <td><strong><code>FALSE</code></strong></td>
@@ -45,7 +45,7 @@ PHP의 중요한 특징으로 반드시 유의해야할 부분으로 이부분�
 
     <tr>
      <td><em>var $x;</em></td>
-     <td><span class="type"><a href="language.types.null.php" class="type NULL">NULL</a></span></td>
+     <td><span >NULL</span></td>
      <td><strong><code>TRUE</code></strong></td>
      <td><strong><code>TRUE</code></strong></td>
      <td><strong><code>FALSE</code></strong></td>
@@ -54,7 +54,7 @@ PHP의 중요한 특징으로 반드시 유의해야할 부분으로 이부분�
 
     <tr>
      <td><var class="varname"><var class="varname">$x</var></var> is undefined</td>
-     <td><span class="type"><a href="language.types.null.php" class="type NULL">NULL</a></span></td>
+     <td><span >NULL</span></td>
      <td><strong><code>TRUE</code></strong></td>
      <td><strong><code>TRUE</code></strong></td>
      <td><strong><code>FALSE</code></strong></td>
@@ -63,7 +63,7 @@ PHP의 중요한 특징으로 반드시 유의해야할 부분으로 이부분�
 
     <tr>
      <td><em>$x = array();</em></td>
-     <td><span class="type"><a href="language.types.array.php" class="type array">array</a></span></td>
+     <td><span >array</span></td>
      <td><strong><code>TRUE</code></strong></td>
      <td><strong><code>FALSE</code></strong></td>
      <td><strong><code>TRUE</code></strong></td>
@@ -72,7 +72,7 @@ PHP의 중요한 특징으로 반드시 유의해야할 부분으로 이부분�
 
     <tr>
      <td><em>$x = array(&#039;a&#039;, &#039;b&#039;);</em></td>
-     <td><span class="type"><a href="language.types.array.php" class="type array">array</a></span></td>
+     <td><span >array</span></td>
      <td><strong><code>FALSE</code></strong></td>
      <td><strong><code>FALSE</code></strong></td>
      <td><strong><code>TRUE</code></strong></td>
@@ -81,7 +81,7 @@ PHP의 중요한 특징으로 반드시 유의해야할 부분으로 이부분�
 
     <tr>
      <td><em>$x = false;</em></td>
-     <td><span class="type"><a href="language.types.boolean.php" class="type boolean">boolean</a></span></td>
+     <td><span >boolean</span></td>
      <td><strong><code>TRUE</code></strong></td>
      <td><strong><code>FALSE</code></strong></td>
      <td><strong><code>TRUE</code></strong></td>
@@ -90,7 +90,7 @@ PHP의 중요한 특징으로 반드시 유의해야할 부분으로 이부분�
 
     <tr>
      <td><em>$x = true;</em></td>
-     <td><span class="type"><a href="language.types.boolean.php" class="type boolean">boolean</a></span></td>
+     <td><span >boolean</span></td>
      <td><strong><code>FALSE</code></strong></td>
      <td><strong><code>FALSE</code></strong></td>
      <td><strong><code>TRUE</code></strong></td>
@@ -99,7 +99,7 @@ PHP의 중요한 특징으로 반드시 유의해야할 부분으로 이부분�
 
     <tr>
      <td><em>$x = 1;</em></td>
-     <td><span class="type"><a href="language.types.integer.php" class="type integer">integer</a></span></td>
+     <td><span >integer</span></td>
      <td><strong><code>FALSE</code></strong></td>
      <td><strong><code>FALSE</code></strong></td>
      <td><strong><code>TRUE</code></strong></td>
@@ -108,7 +108,7 @@ PHP의 중요한 특징으로 반드시 유의해야할 부분으로 이부분�
 
     <tr>
      <td><em>$x = 42;</em></td>
-     <td><span class="type"><a href="language.types.integer.php" class="type integer">integer</a></span></td>
+     <td><span >integer</span></td>
      <td><strong><code>FALSE</code></strong></td>
      <td><strong><code>FALSE</code></strong></td>
      <td><strong><code>TRUE</code></strong></td>
@@ -117,7 +117,7 @@ PHP의 중요한 특징으로 반드시 유의해야할 부분으로 이부분�
 
     <tr>
      <td><em>$x = 0;</em></td>
-     <td><span class="type"><a href="language.types.integer.php" class="type integer">integer</a></span></td>
+     <td><span >integer</span></td>
      <td><strong><code>TRUE</code></strong></td>
      <td><strong><code>FALSE</code></strong></td>
      <td><strong><code>TRUE</code></strong></td>
@@ -126,7 +126,7 @@ PHP의 중요한 특징으로 반드시 유의해야할 부분으로 이부분�
 
     <tr>
      <td><em>$x = -1;</em></td>
-     <td><span class="type"><a href="language.types.integer.php" class="type integer">integer</a></span></td>
+     <td><span >integer</span></td>
      <td><strong><code>FALSE</code></strong></td>
      <td><strong><code>FALSE</code></strong></td>
      <td><strong><code>TRUE</code></strong></td>
@@ -135,7 +135,7 @@ PHP의 중요한 특징으로 반드시 유의해야할 부분으로 이부분�
 
     <tr>
      <td><em>$x = &quot;1&quot;;</em></td>
-     <td><span class="type"><a href="language.types.string.php" class="type string">string</a></span></td>
+     <td><span >string</span></td>
      <td><strong><code>FALSE</code></strong></td>
      <td><strong><code>FALSE</code></strong></td>
      <td><strong><code>TRUE</code></strong></td>
@@ -144,7 +144,7 @@ PHP의 중요한 특징으로 반드시 유의해야할 부분으로 이부분�
 
     <tr>
      <td><em>$x = &quot;0&quot;;</em></td>
-     <td><span class="type"><a href="language.types.string.php" class="type string">string</a></span></td>
+     <td><span >string</span></td>
      <td><strong><code>TRUE</code></strong></td>
      <td><strong><code>FALSE</code></strong></td>
      <td><strong><code>TRUE</code></strong></td>
@@ -153,7 +153,7 @@ PHP의 중요한 특징으로 반드시 유의해야할 부분으로 이부분�
 
     <tr>
      <td><em>$x = &quot;-1&quot;;</em></td>
-     <td><span class="type"><a href="language.types.string.php" class="type string">string</a></span></td>
+     <td><span >string</span></td>
      <td><strong><code>FALSE</code></strong></td>
      <td><strong><code>FALSE</code></strong></td>
      <td><strong><code>TRUE</code></strong></td>
@@ -162,7 +162,7 @@ PHP의 중요한 특징으로 반드시 유의해야할 부분으로 이부분�
 
     <tr>
      <td><em>$x = &quot;php&quot;;</em></td>
-     <td><span class="type"><a href="language.types.string.php" class="type string">string</a></span></td>
+     <td><span >string</span></td>
      <td><strong><code>FALSE</code></strong></td>
      <td><strong><code>FALSE</code></strong></td>
      <td><strong><code>TRUE</code></strong></td>
@@ -171,7 +171,7 @@ PHP의 중요한 특징으로 반드시 유의해야할 부분으로 이부분�
 
     <tr>
      <td><em>$x = &quot;true&quot;;</em></td>
-     <td><span class="type"><a href="language.types.string.php" class="type string">string</a></span></td>
+     <td><span >string</span></td>
      <td><strong><code>FALSE</code></strong></td>
      <td><strong><code>FALSE</code></strong></td>
      <td><strong><code>TRUE</code></strong></td>
@@ -180,7 +180,7 @@ PHP의 중요한 특징으로 반드시 유의해야할 부분으로 이부분�
 
     <tr>
      <td><em>$x = &quot;false&quot;;</em></td>
-     <td><span class="type"><a href="language.types.string.php" class="type string">string</a></span></td>
+     <td><span >string</span></td>
      <td><strong><code>FALSE</code></strong></td>
      <td><strong><code>FALSE</code></strong></td>
      <td><strong><code>TRUE</code></strong></td>
