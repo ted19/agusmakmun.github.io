@@ -5,8 +5,7 @@ date: "2017-12-06 20:16"
 categories: [php]
 ---
 
-PHP의 중요한 특징으로 반드시 유의해야할 부분으로 이부분에서 실제 많은 오류가 나타납니다.
-다음 표는 느슨한 비교와 엄격한 비교를 위해 PHP 유형 및 비교 연산자의 동작을 보여줍니다.
+실무에서 많은 오류가 나오는 부분으로 empty(), is_null(), isset() 으로 값을 비교할때 참고해야 할 사항입니다.
 
 <style type="text/css">
 table.datatable { clear:Both; width:800px; empty-cells:show; table-layout:fixed; border-collapse:collapse;
