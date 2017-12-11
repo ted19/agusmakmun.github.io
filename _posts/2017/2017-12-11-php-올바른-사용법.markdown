@@ -5,4 +5,6 @@ date: "2017-12-11 17:42"
 categories: [php]
 ---
 
-**홈페이지:** [http://modernpug.github.io/php-the-right-way](http://modernpug.github.io/php-the-right-way)
+PHP 표준 사용법
+
+**PHP The Right Way:** [http://modernpug.github.io/php-the-right-way](http://modernpug.github.io/php-the-right-way)
