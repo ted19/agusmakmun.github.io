@@ -9,7 +9,7 @@ PHP 표준 사용법
 
 **PHP The Right Way:** [http://modernpug.github.io/php-the-right-way](http://modernpug.github.io/php-the-right-way)
 
-**PHP document:** [http://php.net/manual/kr/index.phpy](http://php.net/manual/kr/index.php)
+**PHP document:** [http://php.net/manual/kr/index.php](http://php.net/manual/kr/index.php)
 
 PHP 디버깅을 도와주는 디버거
 
