@@ -4,3 +4,23 @@ title: "PHP 오픈소스 관련 링크"
 date: "2017-12-12 21:12"
 categories: [php]
 ---
+
+블로그
+
+**textcube:** [http://www.textcube.org](http://www.textcube.org)
+
+**wordpress:** [http://wordpress.org](http://wordpress.org)
+
+게시판
+
+**XE(제로보드):** [http://www.xpressengine.com](http://www.xpressengine.com)
+
+**phpBB:** [http://www.phpbb.com](http://www.phpbb.com)
+
+웹로그 분석기
+
+**piwik:** [http://piwik.org](http://piwik.org)
+
+데이터베이스 시스템
+
+**phpMyAdmin:** [http://www.phpmyadmin.net](http://www.phpmyadmin.net)
