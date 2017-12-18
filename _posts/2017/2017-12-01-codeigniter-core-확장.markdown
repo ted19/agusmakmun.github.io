@@ -1,6 +1,6 @@
 ---
 layout: "post"
-title: "Core 확장"
+title: "CodeIgniter Core 확장"
 date: "2017-12-01 19:37"
 categories: [codeigniter]
 ---
